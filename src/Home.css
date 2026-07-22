@@ -1,0 +1,38 @@
+.hero {
+  background-color: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 100px 40px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.btn {
+  background-color: #e94560;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #c73652;
+}
